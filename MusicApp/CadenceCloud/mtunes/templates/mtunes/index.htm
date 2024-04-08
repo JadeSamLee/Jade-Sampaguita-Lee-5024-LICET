@@ -1,0 +1,101 @@
+{%extends 'mtunes/basic.htm'%}
+{% block title%}Mtunes{% endblock %}
+
+{% block body %}
+  {% load static %}
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="{%static 'mtunes/beatles.jpg'%}" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h2 style = "padding-left: 8%; padding-top: 2%; font-family: 'Verdana';">Take a stroll down memory lane</h2>
+      <div class="row" style="padding-top: 2%; padding-left: 7%;">
+
+      <div style = "padding-left: 2%; padding-bottom: 3%;">
+      <div class="card" style="width: 18rem; ">
+        <img src="{%static 'mtunes/beatles_song.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Let It Be</h5>
+          <p class="card-text">The Beatles</p>
+          <a href="/media/docs/beatles_song.mp3" class="btn btn-secondary">Play</a>
+        </div>
+      </div>
+      </div>
+      <div style = "padding-left: 2%; padding-bottom: 3%;">
+        <div class="card" style="width: 18rem; ">
+          <img src="{%static 'mtunes/elvis2.jpg'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">I Can't Help Falling In Love With You</h5>
+            <p class="card-text">Elvis Presley</p>
+            <a href="/media/docs/elvis.mp3" class="btn btn-secondary">Play</a>
+          </div>
+        </div>
+        </div>
+        <div style = "padding-left: 2%; padding-bottom: 3%;">
+          <div class="card" style="width: 18rem; ">
+            <img src="{%static 'mtunes/jerry.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Great Balls Of Fire</h5>
+              <p class="card-text">Jerry Lee Lewis</p>
+              <a href="/media/docs/jerry.mp3" class="btn btn-secondary">Play</a>
+            </div>
+          </div>
+          </div>
+          <div style = "padding-left: 2%; padding-bottom: 3%;">
+            <div class="card" style="width: 18rem; ">
+              <img src="{%static 'mtunes/queen.jpg'%}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">We Will Rock You</h5>
+                <p class="card-text">Queen</p>
+                <a href="/media/docs/queen.mp3" class="btn btn-secondary">Play</a>
+              </div>
+            </div>
+            </div>
+      <h2 style = "padding-left: 8%; padding-top: 2%; font-family: 'Verdana';">Feel The Gen Z Pop</h2>
+      <div class="row" style="padding-top: 2%; padding-left: 7%;">
+        <div style = "padding-left: 2%; padding-bottom: 3%;">
+          <div class="card" style="width: 18rem; ">
+            <img src="{%static 'mtunes/str.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Strange Magic</h5>
+              <p class="card-text">Strange Magic</p>
+              <a href="/media/docs/Strange Magic.mp3" class="btn btn-secondary">Play</a>
+            </div>
+          </div>
+          </div>
+          <div style = "padding-left: 2%; padding-bottom: 3%;">
+            <div class="card" style="width: 18rem; ">
+              <img src="{%static 'mtunes/Something just like this.jpg'%}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Something Just Like This</h5>
+                <p class="card-text">Chainsmokers</p>
+                <a href="/media/docs/something.mp3" class="btn btn-secondary">Play</a>
+              </div>
+            </div>
+            </div>
+            <div style = "padding-left: 2%; padding-bottom: 3%;">
+              <div class="card" style="width: 18rem; ">
+                <img src="{%static 'mtunes/ts.jpg'%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Willow</h5>
+                  <p class="card-text">Taylor Swift</p>
+                  <a href="/media/docs/willow.mp3" class="btn btn-secondary">Play</a>
+                </div>
+              </div>
+              </div>
+              <div style = "padding-left: 2%; padding-bottom: 3%;">
+                <div class="card" style="width: 18rem; ">
+                  <img src="{%static 'mtunes/gs.jpg'%}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Greatest Show</h5>
+                    <p class="card-text">Hugh Jackman </p>
+                    <a href="/media/docs/greatest show.mp3" class="btn btn-secondary">Play</a>
+                  </div>
+                </div>
+                </div>
+      
+{% endblock %}
+    
